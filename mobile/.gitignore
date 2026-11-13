@@ -1,0 +1,25 @@
+node_modules/
+.expo/
+dist/
+web-build/
+build/
+ios/
+android/
+*.log
+
+# Local env (EXPO_PUBLIC_API_URL is a LAN IP); commit only the example
+.env
+.env.*
+!.env.example
+
+# Native / tooling noise
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+.DS_Store
+npm-debug.*
+yarn-error.*
+expo-env.d.ts

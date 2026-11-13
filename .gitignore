@@ -1,0 +1,38 @@
+# Root safety net. Each project also has its own .gitignore (Expo, .NET, Vite).
+
+# Dependencies and build output
+node_modules/
+.expo/
+dist/
+dist-ssr/
+build/
+web-build/
+[Bb]in/
+[Oo]bj/
+
+# IDE / OS
+.vs/
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+
+# Secrets and local config: never commit
+.env
+.env.*
+!.env.example
+*.local
+secrets.json
+appsettings.*.local.json
+*.pfx
+*.p12
+*.key
+*.jks
+
+# Database dumps and logs
+*.dump
+*.bak
+*.log
